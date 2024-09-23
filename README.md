@@ -3,6 +3,12 @@
 ## Abstract
 This paper introduces TC-Llama 2, a novel application of large language models (LLMs) in the technology-commercialization field. Traditional methods in this field, reliant on statistical learning and expert knowledge, often face challenges in process ing the complex and diverse nature of technology-commercialization data. TC-Llama 2 addresses these limitations by utilizing the advanced generalization capabili ties of LLMs, specifically adapting them to this intricate domain. Our model, based on the open-source LLM framework, Llama 2, is customized through instruction tuning using bilingual Korean-English datasets. Our approach involves transforming technol ogy-commercialization data into formats compatible with LLMs, enabling the model to learn detailed technological knowledge and product hierarchies effectively. We introduce a unique model evaluation strategy, leveraging new matching and genera tion tasks to verify the alignment of the technology-commercialization relationship in TC-Llama 2. Our results, derived from refining task-specific instructions for inference, provide valuable insights into customizing language models for specific sectors, poten tially leading to new applications in technology categorization, utilization, and predic tive product development
 
+## Overview
+The preparing_dataset folder has data preprocessing and data generation code.
+The src folder has Llama architecture code for fine-tuning and inference and mapping category.
+Each folder has more specific instructions.
+
+
 ## Setup
 ```bash
 git clone https://github.com/hiyouga/LLaMA-Efficient-Tuning.git
