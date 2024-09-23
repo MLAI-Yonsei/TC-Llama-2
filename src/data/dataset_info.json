@@ -1,0 +1,96 @@
+{
+   "kisti_data": {
+    "file_name": "kisti_train.json"
+  },
+  "kisti_test": {
+    "file_name": "kisti_test.json"
+  },
+  "kisti_task1":{
+    "file_name": "kisti_mapping/task1/amazon_product.json",
+    "columns": {
+      "prompt": "input",
+      "query": "",
+      "response": "output"
+    }
+  },
+  "kisti_task2":{
+    "file_name": "kisti_mapping/task2/danawa_product.json",
+    "columns": {
+      "prompt": "input",
+      "query": "",
+      "response": "output"
+    }
+  },
+  "kisti_task3":{
+    "file_name": "kisti_mapping/task3/task3_product.json",
+    "columns": {
+      "prompt": "input",
+      "query": "",
+      "response": "output"
+    }
+  },
+  "kisti_task3_v2":{
+    "file_name": "kisti_mapping/task3/task3_product_v2.json",
+    "columns":{
+      "prompt": "input",
+      "query": "",
+      "response": "output"
+    }
+},
+  "kisti_task1C":{
+    "file_name": "kisti_mapping/task1/amazon_cat.json",
+    "columns": {
+      "prompt": "input",
+      "query": "",
+      "response": "output"
+    }
+  },
+  "kisti_task2C":{
+    "file_name": "kisti_mapping/task2/danawa_cat.json",
+    "columns": {
+      "prompt": "input",
+      "query": "",
+      "response": "output"
+    }
+  },
+  "kisti_task3C":{
+    "file_name": "kisti_mapping/task3/zodal_cat.json",
+    "columns": {
+      "prompt": "input",
+      "query": "",
+      "response": "output"
+    }
+  },
+  "zodal_lv1C":{
+    "file_name": "kisti_mapping/task3/zodal_lv1.json",
+    "columns": {
+      "prompt": "input",
+      "query": "",
+      "response": "output"
+    }
+  },
+  "zodal_lv2C":{
+    "file_name": "kisti_mapping/task3/zodal_lv2.json",
+    "columns": {
+      "prompt": "input",
+      "query": "",
+      "response": "output"
+    }
+  },
+  "unspsc_lv1":{
+    "file_name": "kisti_mapping/task3/unspsc_lv1.json",
+    "columns": {
+      "prompt": "input",
+      "query": "",
+      "response": "output"
+    }
+  },
+  "unspsc_lv2":{
+    "file_name": "kisti_mapping/task3/unspsc_lv2.json",
+    "columns": {
+      "prompt": "input",
+      "query": "",
+      "response": "output"
+    }
+  }
+}
